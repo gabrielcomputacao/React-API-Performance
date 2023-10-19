@@ -32,7 +32,7 @@ export const Content = styled(Dialog.Content)`
       border-radius: 6px;
       border: 0;
       background: ${(props) => props.theme["gray-900"]};
-      color: ${(props) => props.theme["gray-900"]};
+      color: ${(props) => props.theme.white};
       padding: 1rem;
 
       &::placeholder {
@@ -40,7 +40,7 @@ export const Content = styled(Dialog.Content)`
       }
     }
 
-    button {
+    button[type="submit"] {
       height: 58px;
       border: 0;
       background: ${(props) => props.theme["green-500"]};
@@ -51,9 +51,13 @@ export const Content = styled(Dialog.Content)`
       margin-top: 1.5rem;
       cursor: pointer;
 
-      &:hover {
+      &:not(:disabled):hover {
         background: ${(props) => props.theme["green-700"]};
         transition: background-color 0.2s;
+      }
+
+      &:disabled {
+        opacity: 0.7;
       }
     }
   }
