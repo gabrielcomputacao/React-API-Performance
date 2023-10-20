@@ -1,29 +1,36 @@
-
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de Site",
-            "type": "income",
-            "category": "Venda",
-            "price": 14000,
-            "createdAt": "2022-10-01"
-        },
-        {
-            "id": 2,
-            "description": "comida",
-            "type": "outcome",
-            "category": "Alimentação",
-            "price": 50,
-            "createdAt": "2022-10-01"
-        },
-        {
-            "id": 3,
-            "description": "Curso",
-            "type": "outcome",
-            "category": "Educação",
-            "price": 1998,
-            "createdAt": "2022-11-24"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de Site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-10-01"
+    },
+    {
+      "id": 2,
+      "description": "comida",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2022-10-01"
+    },
+    {
+      "id": 3,
+      "description": "Curso",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1998,
+      "createdAt": "2022-11-24"
+    },
+    {
+      "category": "comida",
+      "type": "income",
+      "description": "agua",
+      "price": 20,
+      "createdAt": "2023-10-20T10:11:41.160Z",
+      "id": 4
+    }
+  ]
 }
