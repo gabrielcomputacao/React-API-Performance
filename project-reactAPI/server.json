@@ -47,6 +47,14 @@
       "price": 10000,
       "createdAt": "2023-10-21T11:03:05.034Z",
       "id": 6
+    },
+    {
+      "description": "agua2",
+      "type": "outcome",
+      "category": "teste2",
+      "price": 2455,
+      "createdAt": "2023-10-23T09:38:41.634Z",
+      "id": 7
     }
   ]
 }
